@@ -50,6 +50,25 @@ A análise dos 30 registros apresentou:
 - `consultas.sql` — consultas SQL.
 - `graficos.py` — geração dos gráficos.
 - `requirements.txt` — dependências do projeto.
+- 9. Análise da amplitude térmica
+
+A amplitude térmica diária corresponde à diferença entre a temperatura máxima e a temperatura mínima de cada dia.
+
+A análise dos registros de setembro de 2026 permite observar variações dessa amplitude ao longo do mês, evidenciando diferenças nas condições térmicas diárias.
+
+10. Relevância para a comunidade
+
+O Observatório Climático de Campinas busca apresentar informações meteorológicas históricas de maneira simples e acessível.
+
+Os gráficos e indicadores permitem que os moradores compreendam melhor as variações de temperatura e precipitação registradas no período.
+
+Essas informações têm caráter educativo e não representam previsões meteorológicas.
+
+11. Limitações do estudo
+
+Os dados utilizados são provenientes de uma fonte meteorológica que pode combinar informações modeladas e de reanálise, não correspondendo necessariamente a medições realizadas por uma estação local.
+
+Além disso, o período analisado compreende apenas 30 dias, sendo insuficiente para identificar tendências climáticas de longo prazo ou estabelecer conclusões sobre mudanças climáticas.
 
 ### 8. Conclusão
 O projeto demonstra a aplicação de ferramentas de Ciência de Dados na análise de informações climáticas, permitindo identificar variações de temperatura e precipitação no período estudado.
