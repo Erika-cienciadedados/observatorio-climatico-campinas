@@ -74,3 +74,28 @@ Além disso, o período analisado compreende apenas 30 dias, sendo insuficiente 
 O projeto demonstra a aplicação de ferramentas de Ciência de Dados na análise de informações climáticas, permitindo identificar variações de temperatura e precipitação no período estudado.
 
 Os resultados podem servir como base para estudos posteriores e para ampliar a compreensão das condições climáticas de Campinas (SP).
+## 9. Como executar o projeto
+
+É necessário ter Python instalado no computador.
+
+1. Baixe ou clone este repositório.
+2. Abra o terminal na pasta do projeto.
+3. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Execute os scripts na seguinte ordem:
+
+```bash
+python coleta.py
+python banco.py
+python graficos.py
+```
+
+O script de coleta obtém os dados históricos, o script do banco organiza os registros no DuckDB e o script de gráficos gera as visualizações.
+
+As consultas SQL utilizadas na análise estão disponíveis no arquivo `consultas.sql`.
+
+**Observação:** Os dados são históricos e não representam uma previsão meteorológica.
